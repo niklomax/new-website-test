@@ -8,22 +8,20 @@ cascade:
     list: always
 ---
 
-# YOUR CONTENT GOES HERE (Below the ---)
-
 # Display name
 title: "Your Full Name"
 
 # Is this the primary user of the site?
 author: true
 
-# Role/position
+# Role/position (e.g., Professor of AI)
 role: "Researcher"
 
 # Organization/Affiliation
 organization: "Your University or Institution"
 organization_url: "https://your-university.edu"
 
-# Short bio
+# Short bio (This appears on the homepage)
 summary: |
   I am a researcher specializing in [Your Field]. 
   My work focuses on [Specific Topic 1] and [Specific Topic 2]. 
@@ -49,12 +47,3 @@ math: false
 
 # Enable diagrams?
 diagram: false
----
-
-## About Me
-
-[Write your full biography here. This is where you can expand on your research interests, education, and career highlights.]
-
-## Selected Publications
-
-*Check out my full list of 70 publications on the [Publications page](/publication/).*

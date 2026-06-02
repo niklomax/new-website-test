@@ -5,30 +5,17 @@ date: 2024-01-01
 type: landing
 
 sections:
-  # 1. About Me Section
-  - block: resume-biography-3
-    content:
-      # CHANGE THIS to match your folder name (e.g., 'me', 'admin', or your name)
-      username: me
-      text: |
-        I am a researcher at **Your Institution**. My work focuses on **[Your Field]**. 
-        I have published **70+ papers** in top-tier venues.
-        
-        Please reach out to collaborate!
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
-    design:
-      background:
-        gradient_mesh:
-          enable: true
-      name:
-        size: md
-      avatar:
-        size: medium
-        shape: circle
+  # --- COMMENTED OUT UNTIL PROFILE IS FIXED ---
+  # - block: resume-biography-3
+  #   content:
+  #     username: me
+  #     text: |
+  #       I am a researcher...
+  #   design:
+  #     ...
+  # --- END COMMENTED SECTION ---
 
-  # 2. Publications Section (Shows ALL publications)
+  # 2. Publications Section (This will work now)
   - block: collection
     id: publications
     content:
@@ -37,8 +24,7 @@ sections:
       filters:
         folders:
           - publications
-        # Remove 'featured_only: true' to show ALL papers, not just featured ones
     design:
-      view: citation # Clean list view
+      view: citation
       columns: 1
 ---
